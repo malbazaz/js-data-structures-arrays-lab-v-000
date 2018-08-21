@@ -29,7 +29,7 @@ function removeLastDriver(){
 const newdrivers = drivers.slice(0, drivers.length-1);
 return newdrivers;
 }
-removeFirstDriver(){
+function removeFirstDriver(){
   const newdivers = drivers.slice(0);
   return newdivers;
 }
