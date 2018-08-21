@@ -30,6 +30,6 @@ const newdrivers = drivers.slice(0, drivers.length-1);
 return newdrivers;
 }
 function removeFirstDriver(){
-  const newdivers = drivers.slice(0);
+  const newdivers = drivers.slice(1, drivers.length);
   return newdivers;
 }
