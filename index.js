@@ -26,6 +26,6 @@ const newdrivers =[name, ...drivers]
 return newdrivers;
 }
 function removeLastDriver(name){
-const newdrivers = driver.slice(0, drivers.length-2);
+const newdrivers = drivers.slice(0, drivers.length-2);
 return newdrivers;
 }
